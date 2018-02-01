@@ -104,6 +104,11 @@ public class Zoologico {
                 
             }
         }
+    
+    @override
+    public String toString(){
+        return.this.getNombre();   
+        }
     }
     
     
