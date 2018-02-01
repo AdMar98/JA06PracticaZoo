@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aplicacion;
+package JA06ProyectoZoo;
 import java.util.Scanner;
 /**
  *
@@ -39,6 +39,7 @@ static Scanner tec=new Scanner (System.in);
                 
                 Animal a=new Animal (nombre,paisOrigen,peso,edad);
                 v.añadeAnimal(a);
+                System.out.println("Mostrar animal ya creado");
                 v.mostrarAnimal(a);
                 
             break;
